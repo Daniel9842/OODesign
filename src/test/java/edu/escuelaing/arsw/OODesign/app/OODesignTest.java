@@ -80,5 +80,4 @@ extends TestCase
 			assertTrue(true);
 			}
 		}
-	
 }
