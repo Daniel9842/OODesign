@@ -20,7 +20,7 @@ public class OODesign
     {
 
 		try {
-			operations = new Operations(Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/prueba2.txt"),
+			operations = new Operations(Files.readAllLines(Paths.get(args[0]),
 			        StandardCharsets.UTF_8));
 		} catch (IOException e) {
 			e.printStackTrace();
