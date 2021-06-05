@@ -5,7 +5,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -70,7 +69,6 @@ extends TestCase
 		 assertEquals(638.9,operations.mean());
 		 assertEquals(625.63,operations.standardDeviation());
 	}
-	
 	/**
 	 * check the error in the document address
 	 */
