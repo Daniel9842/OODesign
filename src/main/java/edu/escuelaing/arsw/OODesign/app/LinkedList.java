@@ -6,12 +6,21 @@ import java.util.Deque;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
-
+/**
+ *this class performs functions to nodes
+ *@author Daniel Santiago Ducuara Ardila
+ */
 public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable {
+	//this variable represents the node at the top of the list
 	private LinkedListNode<E> first;
+	//this variable represents the last node found in the list
 	private LinkedListNode<E> last;
+	//this variable represents the size of the linkedList
 	private int size;
 	
+/**
+ * the constructor gives value to the created variables.
+ */
 	public LinkedList() {
 		first = null;
 		last = null;
@@ -65,13 +74,19 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+/**
+ *get the value of the leading node
+ * @return the value stored by the node at the top
+ */
 	@Override
 	public E getFirst() {
 		// TODO Auto-generated method stub
 		return (E) first.getValue();
 	}
-
+/**
+*get the value of the last node
+* @return the value stored by the last node
+*/
 	@Override
 	public E getLast() {
 		// TODO Auto-generated method stub
@@ -155,7 +170,10 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 		// TODO Auto-generated method stub
 		return size;
 	}
-
+/**
+ * this method checks if the list is empty
+ * @return if the list is empty in Boolean
+ */
 	@Override
 	public boolean isEmpty() {
 		// TODO Auto-generated method stub
@@ -190,7 +208,11 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+/**
+ * this method adds a new node
+ * @param e is the value that the node stores
+ * @return a boolean determined by the success of the
+ */
 	@Override
 	public boolean add(E e) {
 		// TODO Auto-generated method stub
@@ -249,7 +271,11 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 		// TODO Auto-generated method stub
 		
 	}
-
+/**
+ * this method returns the value of the specified node.
+ * @param index the value of the variable according to the chosen node. 
+ * @return the value of a specific node.
+ */
 	@Override
 	public E get(int index) {
 		// TODO Auto-generated method stub
