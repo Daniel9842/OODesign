@@ -1,7 +1,7 @@
 package edu.escuelaing.arsw.OODesign.app;
 /**
  * This class stores information about the nodes.
- * @author Portatil
+ * @author Daniel Santiago Ducuara Ardila
  *
  * @param <T> is the value that each node stores
  */
