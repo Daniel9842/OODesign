@@ -4,6 +4,7 @@ import java.util.List;
  * This class is in charge of performing the mean and standard deviation operations
  * @author Daniel Santiago Ducuara Ardila
  */
+
 public class Operations {
 //this variable stores the file
 	public List<String> lines;

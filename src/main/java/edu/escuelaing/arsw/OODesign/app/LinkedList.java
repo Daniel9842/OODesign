@@ -10,6 +10,7 @@ import java.util.ListIterator;
  *this class performs functions to nodes
  *@author Daniel Santiago Ducuara Ardila
  */
+
 public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable {
 //this variable represents the node at the top of the list
 	private LinkedListNode<E> first;
