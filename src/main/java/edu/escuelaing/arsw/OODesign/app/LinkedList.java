@@ -17,7 +17,6 @@ public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable
 	private LinkedListNode<E> last;
 	//this variable represents the size of the linkedList
 	private int size;
-	
 /**
  * the constructor gives value to the created variables.
  */
