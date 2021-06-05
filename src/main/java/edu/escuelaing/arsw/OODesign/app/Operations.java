@@ -9,7 +9,7 @@ public class Operations {
 	//this variable stores the file
 	public List<String> lines;
 	//this variable stores the mean
-	private double mean;
+	public double mean;
 	//this variable stores the linkedList
 	private LinkedList linkedList;
 /**
