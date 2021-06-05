@@ -5,11 +5,11 @@ import java.util.List;
  * @author Daniel Santiago Ducuara Ardila
  */
 public class Operations {
-	//this variable stores the file
+//this variable stores the file
 	public List<String> lines;
-	//this variable stores the mean
+//this variable stores the mean
 	public double mean;
-	//this variable stores the linkedList
+//this variable stores the linkedList
 	private LinkedList linkedList;
 /**
  * the constructor is in charge of giving value to the variables and creating the nodes in the linkedList

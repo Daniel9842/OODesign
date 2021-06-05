@@ -11,11 +11,11 @@ import java.util.ListIterator;
  *@author Daniel Santiago Ducuara Ardila
  */
 public class LinkedList<E> implements List<E>, Deque<E>, Cloneable, Serializable {
-	//this variable represents the node at the top of the list
+//this variable represents the node at the top of the list
 	private LinkedListNode<E> first;
-	//this variable represents the last node found in the list
+//this variable represents the last node found in the list
 	private LinkedListNode<E> last;
-	//this variable represents the size of the linkedList
+//this variable represents the size of the linkedList
 	private int size;
 /**
  * the constructor gives value to the created variables.
