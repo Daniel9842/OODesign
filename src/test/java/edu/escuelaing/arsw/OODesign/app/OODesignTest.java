@@ -28,7 +28,7 @@ extends TestCase
  */
 	public void testFile1() {
 		try {
-			linesFile1 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/Taller2OODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba1.txt"),
+			linesFile1 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/TallerOODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba1.txt"),
 					StandardCharsets.UTF_8);
 			} catch (IOException e) {
 			
@@ -43,7 +43,7 @@ extends TestCase
  */
 	public void testFile2() {
 		try {
-			linesFile2 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/Taller2OODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba2.txt"),
+			linesFile2 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/TallerOODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba2.txt"),
 					StandardCharsets.UTF_8);
 			} catch (IOException e) {
 			
@@ -58,7 +58,7 @@ extends TestCase
  */
 	public void testFile3() {
 		try {
-			linesFile3 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/Taller2OODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba3.txt"),
+			linesFile3 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/TallerOODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba3.txt"),
 					StandardCharsets.UTF_8);
 			} catch (IOException e) {
 			

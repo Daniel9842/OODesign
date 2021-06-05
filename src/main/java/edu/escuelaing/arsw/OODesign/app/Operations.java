@@ -1,5 +1,4 @@
 package edu.escuelaing.arsw.OODesign.app;
-
 import java.util.List;
 /**
  * This class is in charge of performing the mean and standard deviation operations
