@@ -27,7 +27,6 @@ extends TestCase
  * This test consists of obtaining the mean and standard deviation of file number 1.
  */
 	public void testFile1() {
-		
 		try {
 			linesFile1 = Files.readAllLines(Paths.get("/Users/Portatil/OneDrive/Documentos/ARSW/Taller2OODesign/OODesign/src/test/java/edu/escuelaing/arsw/OODesign/app/prueba1.txt"),
 					StandardCharsets.UTF_8);
