@@ -2,7 +2,7 @@
 ### Daniel Santiago Ducuara Ardila
 ### 05/06/2021
 
-##Diagrama de clases
+## Diagrama de clases
 ![Diseño OODesign](Design/OODesign.PNG "OODesign")<br>
 El objetivo del proyecto es realizar una lista enlazada basada en el api de java, una vez realizada esta lista
 se debe leer como entrada una columna de números en un archivo e ir ingresando estos datos en la lista enlazada.
@@ -16,10 +16,10 @@ LinkedListNode, first es el nodo cabeza de la lista y last el último, posterior
 funcionamiento de la lista como agregar nodos o obtener nodos. Por último la clase LinkedListNode es la clase que guarda la información 
 de cada nodo y se tienen métodos para retornar su información o cambiar valores de sus atributos.
 
-##Reporte de pruebas
+## Reporte de pruebas
 ![Pruebas Reporte de pruebas](TestOODesign.PNG "Reporte de pruebas")<br>
 Se realiza el reporte de pruebas con todas las pruebas satisfactorias, se adjunta en el archivo tres archivos de prueba.
 **Para la ejecución de pruebas es necesario cambiar la ruta del archivo.**<br>
 
-###Productividad
+### Productividad
 La productividad de este proyecto fue de 347LOC/10h .
